@@ -1,0 +1,202 @@
+>> TestOB
+test de operaciones basicas de numero complejo.
+Se crean dos numeros complejos y luego se suman.
+
+a = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: 3
+          FormBinomica_img: 50
+              FormPolar_ro: 50.0899
+              FormPolar_fi: 1.5109
+       FormBinomica_string: '3+50j'
+          FormPolar_string: '[50.0899;1.5109]'
+    FormParOrdenado_string: '(3,50)'
+          Conjugado_string: '3-50j'
+              AnguloGrados: 87
+               TipoInicial: 1
+
+
+b = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: 10
+          FormBinomica_img: -7
+              FormPolar_ro: 12.2066
+              FormPolar_fi: 5.6725
+       FormBinomica_string: '10-7j'
+          FormPolar_string: '[12.2066;5.6725]'
+    FormParOrdenado_string: '(10,-7)'
+          Conjugado_string: '10+7j'
+              AnguloGrados: 325
+               TipoInicial: 1
+
+El resultado será otro numero complejo.
+
+c = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: 13
+          FormBinomica_img: 43
+              FormPolar_ro: 44.9222
+              FormPolar_fi: 1.2772
+       FormBinomica_string: '13+43j'
+          FormPolar_string: '[44.9222;1.2772]'
+    FormParOrdenado_string: '(13,43)'
+          Conjugado_string: '13-43j'
+              AnguloGrados: 73
+               TipoInicial: 1
+
+
+a = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: 5
+          FormBinomica_img: -12
+              FormPolar_ro: 13
+              FormPolar_fi: 5.1072
+       FormBinomica_string: '5-12j'
+          FormPolar_string: '[13;5.1072]'
+    FormParOrdenado_string: '(5,-12)'
+          Conjugado_string: '5+12j'
+              AnguloGrados: 293
+               TipoInicial: 3
+
+
+b = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: 4.9966
+          FormBinomica_img: -8.6622
+              FormPolar_ro: 10
+              FormPolar_fi: 5.2356
+       FormBinomica_string: '4.9966-8.6622j'
+          FormPolar_string: '[10;5.2356]'
+    FormParOrdenado_string: '(4.9966,-8.6622)'
+          Conjugado_string: '4.9966+8.6622j'
+              AnguloGrados: 300
+               TipoInicial: 2
+
+El resultado será otro numero complejo.
+
+c = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: 9.9966
+          FormBinomica_img: -20.6622
+              FormPolar_ro: 22.9534
+              FormPolar_fi: 5.1630
+       FormBinomica_string: '9.9966-20.6622j'
+          FormPolar_string: '[22.9534;5.163]'
+    FormParOrdenado_string: '(9.9966,-20.6622)'
+          Conjugado_string: '9.9966+20.6622j'
+              AnguloGrados: 296
+               TipoInicial: 1
+
+Se crean dos numeros complejos y luego se restan.
+
+a = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: 15
+          FormBinomica_img: 10
+              FormPolar_ro: 18.0278
+              FormPolar_fi: 0.5880
+       FormBinomica_string: '15+10j'
+          FormPolar_string: '[18.0278;0.588]'
+    FormParOrdenado_string: '(15,10)'
+          Conjugado_string: '15-10j'
+              AnguloGrados: 34
+               TipoInicial: 3
+
+
+b = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: 8
+          FormBinomica_img: 16
+              FormPolar_ro: 17.8885
+              FormPolar_fi: 1.1071
+       FormBinomica_string: '8+16j'
+          FormPolar_string: '[17.8885;1.1071]'
+    FormParOrdenado_string: '(8,16)'
+          Conjugado_string: '8-16j'
+              AnguloGrados: 63
+               TipoInicial: 1
+
+El resultado será otro numero complejo.
+
+c = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: 7
+          FormBinomica_img: -6
+              FormPolar_ro: 9.2195
+              FormPolar_fi: 5.5746
+       FormBinomica_string: '7-6j'
+          FormPolar_string: '[9.2195;5.5746]'
+    FormParOrdenado_string: '(7,-6)'
+          Conjugado_string: '7+6j'
+              AnguloGrados: 319
+               TipoInicial: 1
+
+Se crean dos numeros complejos y luego se multiplican.
+
+a = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: -3
+          FormBinomica_img: 5
+              FormPolar_ro: 5.8310
+              FormPolar_fi: 2.1112
+       FormBinomica_string: '-3+5j'
+          FormPolar_string: '[5.831;2.1112]'
+    FormParOrdenado_string: '(-3,5)'
+          Conjugado_string: '-3-5j'
+              AnguloGrados: 121
+               TipoInicial: 3
+
+
+b = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: 1
+          FormBinomica_img: -2
+              FormPolar_ro: 2.2361
+              FormPolar_fi: 5.1760
+       FormBinomica_string: '1-2j'
+          FormPolar_string: '[2.2361;5.176]'
+    FormParOrdenado_string: '(1,-2)'
+          Conjugado_string: '1+2j'
+              AnguloGrados: 297
+               TipoInicial: 3
+
+El resultado será otro numero complejo.
+
+c = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: 7
+          FormBinomica_img: 11
+              FormPolar_ro: 13.0384
+              FormPolar_fi: 1.0041
+       FormBinomica_string: '7+11j'
+          FormPolar_string: '[13.0384;1.0041]'
+    FormParOrdenado_string: '(7,11)'
+          Conjugado_string: '7-11j'
+              AnguloGrados: 58
+               TipoInicial: 1
+
+>> 

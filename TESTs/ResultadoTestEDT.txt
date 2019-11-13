@@ -1,0 +1,118 @@
+>> TestEDT
+test de validacion e instancias de numero complejo.
+Cuando se crean las instancias se asignan parametros
+Se procede a crear numero complejo con string de entrada:8-4.5j
+Resultado esperado: se crea la instancia
+
+c = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: 8
+          FormBinomica_img: -4.5000
+              FormPolar_ro: 9.1788
+              FormPolar_fi: 5.7708
+       FormBinomica_string: '8-4.5j'
+          FormPolar_string: '[9.1788;5.7708]'
+    FormParOrdenado_string: '(8,-4.5)'
+          Conjugado_string: []
+              AnguloGrados: 331
+               TipoInicial: 3
+
+Se procede a crear numero complejo con string de entrada:(5,45)
+Resultado esperado: se crea la instancia
+
+c = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: 5
+          FormBinomica_img: 45
+              FormPolar_ro: 45.2769
+              FormPolar_fi: 1.4601
+       FormBinomica_string: '5+45j'
+          FormPolar_string: '[45.2769;1.4601]'
+    FormParOrdenado_string: '(5,45)'
+          Conjugado_string: '5-45j'
+              AnguloGrados: 84
+               TipoInicial: 1
+
+Se procede a crear numero complejo con string de entrada:[-8;5.3]
+Resultado esperado: se crea la instancia
+
+c = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: -4.4350
+          FormBinomica_img: 6.6581
+              FormPolar_ro: -8
+              FormPolar_fi: 5.3000
+       FormBinomica_string: '-4.435+6.6581j'
+          FormPolar_string: '[-8;5.3]'
+    FormParOrdenado_string: '(-4.435,6.6581)'
+          Conjugado_string: '-4.435-6.6581j'
+              AnguloGrados: 304
+               TipoInicial: 2
+
+Se procede a crear numero complejo con string de entrada:(4.4.4;5)
+Resultado esperado:da error "no es un numero complejo".
+
+no es un numero complejo
+
+c = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: []
+          FormBinomica_img: []
+              FormPolar_ro: []
+              FormPolar_fi: []
+       FormBinomica_string: []
+          FormPolar_string: []
+    FormParOrdenado_string: []
+          Conjugado_string: []
+              AnguloGrados: []
+               TipoInicial: 0
+
+Se procede a crear numero complejo con string de entrada: 78
+Resultado esperado:da error "no es un numero complejo".
+
+no es un numero complejo
+
+c = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: []
+          FormBinomica_img: []
+              FormPolar_ro: []
+              FormPolar_fi: []
+       FormBinomica_string: []
+          FormPolar_string: []
+    FormParOrdenado_string: []
+          Conjugado_string: []
+              AnguloGrados: []
+               TipoInicial: 0
+
+Se procede a crear numero complejo con numero de entrada: 50
+Resultado esperado:da error "no ingreso parametro, o ingreso un parametro que no es string".
+
+no ingreso parametro, o ingreso un parametro que no es string
+
+c = 
+
+  NumeroComplejo with properties:
+
+         FormBinomica_real: []
+          FormBinomica_img: []
+              FormPolar_ro: []
+              FormPolar_fi: []
+       FormBinomica_string: []
+          FormPolar_string: []
+    FormParOrdenado_string: []
+          Conjugado_string: []
+              AnguloGrados: []
+               TipoInicial: 0
+
+>> 
